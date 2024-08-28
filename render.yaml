@@ -5,7 +5,7 @@ services:
     repo: https://github.com/luizbrito6/spring-deploy-test
     plan: free
     healthCheckPath: /
-    branch: main
+    branch: master 
     envVars:
       - key: DB_HOST
         sync: false
